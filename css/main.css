@@ -1,0 +1,73 @@
+
+* {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.brand {
+    font-size: 22px;
+}
+
+.nav-wrapper {
+    text-align: left;
+    padding-top: 5px;
+}
+
+.btn, .btn-floating {
+    background-color: #ee6373;
+}
+
+.btn:focus, .btn-large:focus, .btn-floating:focus {
+    background-color: #a74551 !important;
+}
+
+.btn:hover, .btn-floating:hover {
+    background-color: #a74551 !important;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #ee6373;
+    -webkit-box-shadow: 0 1px 0 0 #ee6373;
+    box-shadow: 0 1px 0 0 #ee6373;
+}
+
+[type="checkbox"].filled-in:checked + label:after {
+    background-color: #ee6373;
+    border: 2px solid #ee6373;
+}
+
+#stage {
+    padding-top: 28px;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-wrapper {
+        text-align: left;
+    }
+
+    #stage {
+        padding-top: 28px;
+    }
+}
+.info-arweave{
+    color: #979696;
+    line-height: 2;
+    font-size: medium;
+}
+
+#ar_address{
+    font-size: small;
+}
+
+.box-mine{
+    margin: 5px 10px 10px 0;
+}
+
+.filename{
+    font-weight: bold;
+    color: #ee6e73;
+}
